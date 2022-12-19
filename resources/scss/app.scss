@@ -1,1 +1,25 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    height:100vh;
+
+    ul{
+        list-style: none;
+        padding-left:0;
+    }
+    main{
+        background-color: cornflowerblue;
+    }
+}
+
+.card{
+    height:100%;
+    padding:0.5rem;
+
+   .original_title{
+        font-size:1rem;
+    }
+    .nationality, .release, .vote{
+        font-size: 0.875rem;
+    }
+}

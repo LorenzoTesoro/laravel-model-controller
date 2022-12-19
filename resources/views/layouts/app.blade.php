@@ -17,18 +17,15 @@
 
 <body>
 
-    <header>
-        header
-    </header>
+    @include('partials.header')
+    <!-- /.site_header -->
 
     <main>
         @yield('content')
     </main>
     <!-- /.site_main -->
 
-    <footer id="site_footer">
-        footer
-    </footer>
+    @include('partials.footer')
     <!-- /#site_footer -->
 
 </body>
