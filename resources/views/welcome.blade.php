@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container py-4">
-    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
         @forelse($movies as $movie)
         <div class="col">
             <div class="card text-dark bg-dark text-white">
